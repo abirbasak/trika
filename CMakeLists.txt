@@ -9,3 +9,6 @@ add_library(trika ${HEADERS} ${SOURCES})
 target_include_directories(trika PUBLIC include )
 target_compile_definitions(trika PUBLIC )
 target_compile_features(trika PUBLIC cxx_std_17)
+
+group_sources(include)
+group_sources(source)

@@ -5,6 +5,7 @@
 #include <unordered_map>
 #include <fstream>
 #include <vector>
+#include <algorithm>
 namespace azuik
 {
     namespace compute
